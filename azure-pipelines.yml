@@ -39,6 +39,8 @@ steps:
   displayName: 'Publish NuGet package'
   inputs:
     command: push
+    feedsToUse: 'select'
+    nuGetFeedType: 'internal'
     publishVstsFeed: 'mslearn-tailspin-spacegame-web-models/Tailspin.SpaceGame.Web.Models'
     allowPackageConflicts: true
   condition: succeeded()
