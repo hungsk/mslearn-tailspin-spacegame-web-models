@@ -40,7 +40,7 @@ steps:
   inputs:
     command: push
     feedsToUse: 'select'
-    nuGetFeedType: 'internal'
-    publishVstsFeed: 'mslearn-tailspin-spacegame-web-models/Tailspin.SpaceGame.Web.Models'
+    vstsFeed: 'mslearn-tailspin-spacegame-web-models/Tailspin.SpaceGame.Web.Models'
+    publishVstsFeed: 'Tailspin.SpaceGame.Web.Models'
     allowPackageConflicts: true
   condition: succeeded()
